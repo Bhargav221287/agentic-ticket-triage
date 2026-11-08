@@ -11,7 +11,7 @@ import requests
 import streamlit as st
 
 # Configuration
-BACKEND_URL = os.getenv("BACKEND_API_URL", "http://localhost:8000").rstrip("/")
+BACKEND_URL = os.getenv("BACKEND_API_URL", "http://localhost:8010").rstrip("/")
 
 st.set_page_config(
     page_title="Agentic Ticket Triage | IT Service Desk",

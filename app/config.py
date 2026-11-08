@@ -15,8 +15,8 @@ class Settings(BaseSettings):
 
     # Server
     api_host: str = "0.0.0.0"
-    api_port: int = 8000
-    backend_api_url: str = "http://localhost:8000"
+    api_port: int = 8010
+    backend_api_url: str = "http://localhost:8010"
 
     # Database
     database_url: str = "sqlite:///./triage.db"
